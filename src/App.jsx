@@ -10,7 +10,7 @@ import Page7 from "./Components/Page7";
 
 const App = () => {
   return (
-    <div className="w-full min-h-screen ">
+    <div className="w-screen min-h-screen overflow-hidden">
       <Navbar />
       <Page1 />
       <Page2 />

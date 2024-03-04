@@ -3,15 +3,14 @@ import React from "react";
 
 const Navbar = () => {
   return (
-    <div className="fixed top-0 w-screen px-10 py-10   flex justify-between items-center z-[999]">
-      <div className="logo ">
+    <div className="fixed top-0 w-screen px-10 py-10 sm:px-5 flex justify-between items-center z-[999]">
+      <div className="logo sm:h-[1.5vh] ">
         <svg
           viewBox="0 0 95 25"
           fill="none"
           xmlns="http://www.w3.org/2000/svg"
-          className="wordmark-icon h-[1.7vw] text-white"
+          className="wordmark-icon  h-[1.7vmax] text-white"
           data-v-1932cced=""
-          
         >
           <path
             d="M7.70542 17.0085C10.8808 17.2469 13.8123 15.2096 14.8524 12.0415H11.0216C10.4531 13.3929 9.1325 14.2151 7.73401 14.0885C5.56111 14.1223 3.7654 12.3119 3.7031 10.0246H15.1383V9.42253C15.1383 4.45554 12.9656 0.391646 7.64824 0.391646C5.56968 0.342653 3.56563 1.20734 2.11735 2.77806C0.66907 4.34878 -0.0925972 6.48364 0.0152567 8.66995C-0.119195 10.8796 0.639738 13.0461 2.10466 14.6345C3.56958 16.223 5.60394 17.0852 7.70542 17.0085ZM11.4473 7.22456H3.69995V7.16435C3.85008 4.98837 5.57318 3.30544 7.64509 3.31117C8.64896 3.27405 9.62348 3.67141 10.3418 4.41075C11.0601 5.15009 11.4596 6.16692 11.4473 7.22456Z"
@@ -45,13 +44,20 @@ const Navbar = () => {
           ></path>
         </svg>
       </div>
-      <div className="links flex gap-7 text-white">
-        {["Work","Studio","News","Contact"].map((item,index)=>{
-          return( <motion.a 
-                initial={{y:100,opacity:0, rotateZ: "8deg"}}
-                whileInView={{y:0,opacity:1, rotateZ: "0deg"}}
-                transition={{ ease: [0.76, 0, 0.24, 1], duration: 1 }}
-             className="text-[13px] font-medium origin-bottom-left" href="#" key={index}>{item}</motion.a>)
+      <div className="links flex gap-7 sm:gap-3 text-white">
+        {["Work", "Studio", "News", "Contact"].map((item, index) => {
+          return (
+            <motion.a
+              initial={{ y: 100, opacity: 0, rotateZ: "8deg" }}
+              whileInView={{ y: 0, opacity: 1, rotateZ: "0deg" }}
+              transition={{ ease: [0.76, 0, 0.24, 1], duration: 1 }}
+              className="sm:text-[1.5vh] text-[1.1vmax] font-medium origin-bottom-left"
+              href="/"
+              key={index}
+            >
+              {item}
+            </motion.a>
+          );
         })}
       </div>
     </div>

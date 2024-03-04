@@ -10,19 +10,19 @@ const Page6 = () => {
       animate={{ y: 0 }}
       transition={{ ease: [0.76, 0, 0.24, 1], duration: 0.7 }}
       style={{ zIndex: 2, position: "relative" }}
-      className="  h-[120vh] w-full bg-white "
+      className="  h-[120vh] w-full bg-white  sm:h-[70vh]"
     >
-      <div className="headings w-[60%] h-full  mx-auto  px-16 ">
+      <div className="headings w-[60%] h-full  mx-auto  px-16 sm:w-[96%] sm:pt-[5vh] ">
         {["Awards &", "Publications"].map((i, index) => {
           return (
             <div className="masker ">
-              <h1 className="text-[10vw] tracking-tighter leading-[10vw] flex items-center origin-top-left">
+              <h1 className="text-[10vw] tracking-tighter leading-[10vw] flex items-center origin-top-left sm:text-[6vh] sm:leading-[6vh]">
                 {i}
               </h1>
             </div>
           );
         })}
-        <div className="content flex items-center gap-[18vw] mt-[6vw] px-2">
+        <div className="content flex items-center gap-[18vw] mt-[6vw]  px-2 sm:gap-[1vh] sm:mt-[6vh]">
           <div className="left">
             {[
               {
@@ -42,7 +42,7 @@ const Page6 = () => {
               },
             ].map((i, index) => {
               return (
-                <div className="p opacity-70 text-[1.1vw] mb-4">
+                <div className="p opacity-70 text-[1.1vw] mb-4  sm:text-[2vh] sm:mb-6">
                   <p>{i.L1}</p>
                   <p>{i.L2}</p>
                   <p className="underline underline-offset-4">{i.L3}</p>
@@ -50,7 +50,7 @@ const Page6 = () => {
               );
             })}
           </div>
-          <div className="right opacity-95 text-[1.5vw]">
+          <div className="right opacity-95 text-[1.5vw] sm:hidden">
             <p className="leading-[2.7vw] font-[500]">
               Awwwards{" "}
               <span className="ml-[1.5vw]  opacity-80 text-[1.2vw]">x25</span>{" "}
