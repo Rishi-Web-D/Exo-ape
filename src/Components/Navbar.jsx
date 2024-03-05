@@ -3,7 +3,7 @@ import React from "react";
 
 const Navbar = () => {
   return (
-    <div className="fixed top-0 w-screen px-10 py-10 sm:px-5 flex justify-between items-center z-[999] ">
+    <div className=" fixed top-0 w-screen px-10 py-10 sm:px-5 flex justify-between items-center z-[999] ">
       <div className="logo sm:h-[1.5vh] ">
         <svg
           viewBox="0 0 95 25"
