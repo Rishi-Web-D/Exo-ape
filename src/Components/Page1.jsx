@@ -48,7 +48,7 @@ const Page1 = () => {
             businesses that strive to enhance people's lives through exceptional
             experiences.
           </h3>
-          <p className="font-regular sm:text-[3vw] sm:leading-[2vh] lg:text-[2vw]  text-[1.1vw] mt-5 mb-[3vw]">
+          <p className="font-regular sm:text-[3vw] sm:leading-[2vh] lg:text-[2vw] lg:leading-[2.5vh]  text-[1.1vw] mt-5 mb-[3vw]">
             For over a decade, we've been using profound design aesthetics,
             meticulously crafted details, and surprising interactions to create
             digital experiences that spark conversation, inspire action, and
