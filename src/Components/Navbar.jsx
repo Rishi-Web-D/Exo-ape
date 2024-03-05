@@ -3,7 +3,7 @@ import React from "react";
 
 const Navbar = () => {
   return (
-    <div className="fixed top-0 w-screen px-10 py-10 sm:px-5 flex justify-between items-center z-[999]">
+    <div className="fixed top-0 w-screen px-10 py-10 sm:px-5 flex justify-between items-center z-[999] ">
       <div className="logo sm:h-[1.5vh] ">
         <svg
           viewBox="0 0 95 25"
@@ -51,7 +51,7 @@ const Navbar = () => {
               initial={{ y: 100, opacity: 0, rotateZ: "8deg" }}
               whileInView={{ y: 0, opacity: 1, rotateZ: "0deg" }}
               transition={{ ease: [0.76, 0, 0.24, 1], duration: 1 }}
-              className="sm:text-[2.8vw] text-[2.2vh] font-medium origin-bottom-left"
+              className="sm:text-[2.8vw] lg:text-[1.6vh] text-[2.2vh] font-medium origin-bottom-left"
               href="/"
               key={index}
             >
