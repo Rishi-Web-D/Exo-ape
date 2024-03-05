@@ -29,7 +29,7 @@ const Page3 = () => {
             willing to put <br /> in passion, courage and craftsmanship.
           </h2>
         </div>
-        <div className="bottomleft absolute left-[23%] top-[40%] px-6 sm:top-[28%] sm:left-[4%]">
+        <div className="bottomleft absolute left-[23%] top-[40%] px-6 sm:top-[28%] sm:left-[2%]">
           <h2 className="text-[3.5vw] leading-[4.3vw] font-[500] tracking-tighter sm:text-[2.5vh] sm:leading-[2.7vh] ">
             Elevating <br /> sophistication <br />
             <p className="opacity-70 text-[17px] -ml-[28px] inline-block mr-3">
@@ -37,7 +37,7 @@ const Page3 = () => {
             </p>
             across all senses
           </h2>
-          <p className="opacity-70 w-80 sm:w-[20vh] sm:text-[2vh] sm:mt-2">
+          <p className="opacity-70 w-80 sm:w-[20vh] sm:text-[1.8vh] sm:mt-2">
             We ensure that the high standards and sophistication of your product
             are experienced by all senses while blurring the lines between the
             physical and the digital world. We go deep into details to provide a
@@ -45,7 +45,7 @@ const Page3 = () => {
             customers and fits seamlessly into your existing ecosystem.
           </p>
         </div>
-        <div className="bottomright absolute right-[13%] top-[50%] px-6 sm:-right-[3%] sm:top-[42%]">
+        <div className="bottomright absolute right-[13%] top-[50%] px-6 sm:-right-[4%] sm:top-[42%]">
           <h2 className="text-[3.5vw] leading-[4.3vw] font-[500] tracking-tighter sm:text-[2.5vh] sm:leading-[2.7vh]">
             To be human <br /> is our greatest <br />
             <p className="opacity-70 text-[17px] -ml-[28px] inline-block mr-3">
@@ -53,7 +53,7 @@ const Page3 = () => {
             </p>
             quality
           </h2>
-          <p className="opacity-70 w-72 sm:w-[22vh] sm:text-[2vh] sm:mt-2">
+          <p className="opacity-70 w-72 sm:w-[22vh] sm:text-[1.8vh] sm:mt-2">
             We believe that intuition is the most advanced technology we have,
             and curiosity is our most powerful tool. Our team is guided by the
             principles of compassion and honesty in our day-to-day
@@ -118,7 +118,7 @@ const Page3 = () => {
             </p>
             excellence
           </h2>
-          <p className="opacity-70 w-72  sm:w-[20vh] sm:text-[2vh] sm:mt-2">
+          <p className="opacity-70 w-72  sm:w-[20vh] sm:text-[1.8vh] sm:mt-2">
             We aim to push boundaries and exceed expectations with every
             project, consistently delivering award-winning digital experiences.
             We recognize that true art lies in the intricacies, so we approach
@@ -135,7 +135,7 @@ const Page3 = () => {
             </p>
             our horizon
           </h2>
-          <p className="opacity-70 w-72 sm:w-[20vh] sm:text-[2vh] sm:mt-2">
+          <p className="opacity-70 w-72 sm:w-[20vh] sm:text-[1.8vh] sm:mt-2">
             In today's world, we have become information-rich and time-poor. It
             is those who focus on what really matters that set the tone. We
             approach every project with a keen eye for simplicity and elegance.
