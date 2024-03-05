@@ -51,7 +51,7 @@ const Navbar = () => {
               initial={{ y: 100, opacity: 0, rotateZ: "8deg" }}
               whileInView={{ y: 0, opacity: 1, rotateZ: "0deg" }}
               transition={{ ease: [0.76, 0, 0.24, 1], duration: 1 }}
-              className="sm:text-[1.5vh] text-[2.2vh] font-medium origin-bottom-left"
+              className="sm:text-[2.8vw] text-[2.2vh] font-medium origin-bottom-left"
               href="/"
               key={index}
             >

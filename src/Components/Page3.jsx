@@ -3,7 +3,7 @@ import React from "react";
 
 const Page3 = () => {
   return (
-    <div className="h-[400vh] w-full bg-[#0D0E13] text-[#E4E0DB] font-[TWK Lausanne] sm:h-[200vh]">
+    <div className="h-[400vh] w-full bg-[#0D0E13] text-[#E4E0DB] font-[TWK Lausanne] sm:h-[225vh]">
       <div className="part1 h-[200vh] w-full relative sm:h-[100vh]">
         <div className="topleft px-28 absolute top-[16%] sm:top-[5%] sm:px-14">
           <p className="text-sm font-medium mb-[5.5vw] sm:text-xl  ">
@@ -29,7 +29,7 @@ const Page3 = () => {
             willing to put <br /> in passion, courage and craftsmanship.
           </h2>
         </div>
-        <div className="bottomleft absolute left-[23%] top-[40%] px-6 sm:top-[28%] sm:left-[2%]">
+        <div className="bottomleft absolute left-[23%] top-[40%] px-6 sm:top-[28%] sm:left-[4%]">
           <h2 className="text-[3.5vw] leading-[4.3vw] font-[500] tracking-tighter sm:text-[2.5vh] sm:leading-[2.7vh] ">
             Elevating <br /> sophistication <br />
             <p className="opacity-70 text-[17px] -ml-[28px] inline-block mr-3">
@@ -37,7 +37,7 @@ const Page3 = () => {
             </p>
             across all senses
           </h2>
-          <p className="opacity-70 w-80 sm:w-[20vh]">
+          <p className="opacity-70 w-80 sm:w-[20vh] sm:text-[2vh] sm:mt-2">
             We ensure that the high standards and sophistication of your product
             are experienced by all senses while blurring the lines between the
             physical and the digital world. We go deep into details to provide a
@@ -45,7 +45,7 @@ const Page3 = () => {
             customers and fits seamlessly into your existing ecosystem.
           </p>
         </div>
-        <div className="bottomright absolute right-[13%] top-[50%] px-6 sm:-right-[5%] sm:top-[45%]">
+        <div className="bottomright absolute right-[13%] top-[50%] px-6 sm:-right-[3%] sm:top-[42%]">
           <h2 className="text-[3.5vw] leading-[4.3vw] font-[500] tracking-tighter sm:text-[2.5vh] sm:leading-[2.7vh]">
             To be human <br /> is our greatest <br />
             <p className="opacity-70 text-[17px] -ml-[28px] inline-block mr-3">
@@ -53,7 +53,7 @@ const Page3 = () => {
             </p>
             quality
           </h2>
-          <p className="opacity-70 w-72 sm:w-[22vh]">
+          <p className="opacity-70 w-72 sm:w-[22vh] sm:text-[2vh] sm:mt-2">
             We believe that intuition is the most advanced technology we have,
             and curiosity is our most powerful tool. Our team is guided by the
             principles of compassion and honesty in our day-to-day
@@ -65,19 +65,19 @@ const Page3 = () => {
         </div>
       </div>
       <div className="part2 h-[200vh] w-full relative py-14 sm:h-[100vh] ">
-        <div className="marquee flex whitespace-nowrap  overflow-hidden">
+        <div className="marquee flex whitespace-nowrap  overflow-hidden sm:py-[3vw] ">
           <motion.h1
             initial={{ x: 0 }}
             animate={{ x: "-100%" }}
             transition={{ ease: "linear", duration: "10", repeat: Infinity }}
-            className="text-[15vw]  tracking-tighter flex items-center sm:gap-2  "
+            className="text-[15vw]  tracking-tighter flex items-center sm:gap-3 sm:mr-2  "
           >
             Forever Upwards
             <svg
               viewBox="0 0 169 78"
               fill="none"
               xmlns="http://www.w3.org/2000/svg"
-              className="icon h-20 inline-block -mb-10 sm:h-12 sm:mb-0 "
+              className="icon h-20 inline-block -mb-10 sm:h-[6vh] sm:mb-0 "
               data-v-774e5e2b=""
             >
               <path
@@ -91,14 +91,14 @@ const Page3 = () => {
             initial={{ x: 0 }}
             animate={{ x: "-100%" }}
             transition={{ ease: "linear", duration: "10", repeat: Infinity }}
-            className="text-[15vw]  tracking-tighter flex  items-center sm:gap-2"
+            className="text-[15vw]  tracking-tighter flex  items-center sm:gap-3  sm:mr-2"
           >
             Forever Upwards
             <svg
               viewBox="0 0 169 78"
               fill="none"
               xmlns="http://www.w3.org/2000/svg"
-              className="icon h-20 inline-block -mb-10 sm:h-12 sm:mb-0 "
+              className="icon h-20 inline-block -mb-10 sm:h-[6vh] sm:mb-0 "
               data-v-774e5e2b=""
             >
               <path
@@ -109,7 +109,7 @@ const Page3 = () => {
             </svg>
           </motion.h1>
         </div>
-        <div className="bottomright absolute right-[15%] bottom-[5%] px-6 sm:-right-3">
+        <div className="bottomright absolute right-[15%] bottom-[5%] px-6 sm:-right-3 sm:-bottom-[19vh] ">
           <h2 className="text-[3.5vw] leading-[4.3vw] font-[500] tracking-tighter sm:text-[2.5vh] sm:leading-[2.7vh]   ">
             Uncompromising
             <br /> standard of <br />
@@ -118,7 +118,7 @@ const Page3 = () => {
             </p>
             excellence
           </h2>
-          <p className="opacity-70 w-72  sm:w-[20vh]">
+          <p className="opacity-70 w-72  sm:w-[20vh] sm:text-[2vh] sm:mt-2">
             We aim to push boundaries and exceed expectations with every
             project, consistently delivering award-winning digital experiences.
             We recognize that true art lies in the intricacies, so we approach
@@ -127,7 +127,7 @@ const Page3 = () => {
             brand. Down to earth but reaching for the stars
           </p>
         </div>
-        <div className="bottomleft absolute left-[15%] top-[50%] px-6 sm:top-[25%] sm:left-[1%]">
+        <div className="bottomleft absolute left-[15%] top-[50%] px-6 sm:top-[27%] sm:left-[1.5vh] ">
           <h2 className="text-[3.5vw] leading-[4.3vw] font-[500] tracking-tighter sm:text-[2.5vh] sm:leading-[2.7vh] ">
             Simplicity is <br className="sm:hidden" /> the dot on <br />
             <p className="opacity-70 text-[17px] -ml-[28px] inline-block mr-3">
@@ -135,7 +135,7 @@ const Page3 = () => {
             </p>
             our horizon
           </h2>
-          <p className="opacity-70 w-72 sm:w-[20vh]">
+          <p className="opacity-70 w-72 sm:w-[20vh] sm:text-[2vh] sm:mt-2">
             In today's world, we have become information-rich and time-poor. It
             is those who focus on what really matters that set the tone. We
             approach every project with a keen eye for simplicity and elegance.
