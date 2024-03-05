@@ -13,12 +13,12 @@ const App = () => {
     <div className="w-screen min-h-screen overflow-hidden">
       <Navbar  />
       <Page1 />
-      {/* <Page2 />
+      <Page2 />
       <Page3 />
       <Page4 />
       <Page5 />
       <Page6 />
-      <Page7 /> */}
+      <Page7 />
     </div>
   );
 };
